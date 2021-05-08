@@ -9,7 +9,7 @@ Installation:
 - npm start
 
 ## Endpoint Documentation
-- [POST /queues/:counter](#post-queues-:counter)
+- [POST /queues/:counter](#post-queues-counter)
 - [POST /visitors](#post-visitors)
 - [GET /visitors](#get-visitors)
 
@@ -18,7 +18,9 @@ You can import Prieds.postman_collection.json to your Postman
 > ## POST /queues/:counter
 
 Generate queue number
+
 You can set counter from A to Z
+
 Counter will be automatically set to A if blank
 
 ### Response
