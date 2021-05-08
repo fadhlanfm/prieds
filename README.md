@@ -9,7 +9,7 @@ Installation:
 - npm start
 
 ## Endpoint Documentation
-- [POST /queues/:counter](#post-queues-counter)
+- [POST /queues/:counter](#post-queuescounter)
 - [POST /visitors](#post-visitors)
 - [GET /visitors](#get-visitors)
 
