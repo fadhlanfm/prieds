@@ -1,10 +1,15 @@
 Prerequisites:
-node.js v12.18.3
-npm 6.14.6
-mongoDB shell v4.4.1
+- node.js v12.18.3,
+- npm 6.14.6,
+- mongoDB shell v4.4.1,
+
+Installation:
+- Clone this repo
+- npm install
+- npm start
 
 ## Endpoint Documentation
-- [POST /queues/:counter](#post-queues-counter)
+- [POST /queues/:counter](#post-queues-:counter)
 - [POST /visitors](#post-visitors)
 - [GET /visitors](#get-visitors)
 
