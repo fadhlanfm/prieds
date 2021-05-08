@@ -1,0 +1,100 @@
+{
+	"info": {
+		"_postman_id": "d44b6357-45c2-4544-82d2-eeb1160b634d",
+		"name": "Prieds",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "API DOCS",
+			"item": [
+				{
+					"name": "Create Queue",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/queues/{{counter}}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"queues",
+								"{{counter}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add Visitor",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Fadhlan\",\r\n    \"city\": \"Tangerang\",\r\n    \"address\": \"Alam Sutera\",\r\n    \"npwp\": \"124928398247\",\r\n    \"contact\": \"085928247\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/visitors",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"visitors"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Visitors",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/visitors?limit=1&page=2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"visitors"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "1"
+								},
+								{
+									"key": "page",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
